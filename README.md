@@ -105,6 +105,14 @@ master
          Merge
 ├── .gitignore
 
+```text
+git-github-workflow-practice/
+│
+├── .gitignore
+├── README.md
+└── hello.py
+
+
 Key Commands
 # Initialize repository
 git init
