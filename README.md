@@ -70,9 +70,6 @@ The goal is to build a strong foundation for working with Git-based development 
 - Keeping repositories organized
 - Avoiding sensitive information in repositories
 
-## Repository Structure
-
-```text
 git-github-workflow-practice/
 │
 
@@ -210,3 +207,6 @@ git commit -m "Create professional GitHub workflow README"
 git push origin master
 ├── README.md
 └── hello.py
+
+## Repository Structure
+
