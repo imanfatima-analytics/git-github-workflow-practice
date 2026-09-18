@@ -107,5 +107,106 @@ master
            ↓
          Merge
 ├── .gitignore
+
+Key Commands
+# Initialize repository
+git init
+
+# Check repository status
+git status
+
+# Stage changes
+git add .
+
+# Commit changes
+git commit -m "Meaningful commit message"
+
+# View commit history
+git log --oneline
+
+# Create a branch
+git switch -c feature/example
+
+# Switch branches
+git switch master
+
+# Merge a branch
+git merge feature/example
+
+# Clone a repository
+git clone <repository-url>
+
+# Pull remote changes
+git pull
+
+# Push local commits
+git push
+What I Learned
+
+Through this practice repository, I worked with:
+
+Git repository initialization
+Working directory, staging area, and repository
+Commits and commit history
+Remote repositories
+GitHub repository management
+Branch creation and switching
+Feature branches
+Pull Requests
+Branch merging
+Merge conflict resolution
+.gitignore
+Local and remote synchronization
+Purpose
+
+This repository serves as a practical Git/GitHub learning project and reference for future software development work.
+
+The Git workflow practiced here will be used in larger projects involving:
+
+Python
+REST APIs
+FastAPI
+PostgreSQL
+Backend development
+AI automation
+LLM applications
+Author
+
+Iman Fatima
+
+GitHub:
+https://github.com/imanfatima-analytics
+
+
+### Also fix the repository's **About** section
+
+Your current repository has **no description or topics**. :contentReference[oaicite:2]{index=2}
+
+Use:
+
+**Description**
+```text
+Hands-on Git and GitHub workflow practice covering version control, branching, Pull Requests, merging, conflict resolution, and remote repository management.
+
+Topics
+
+git
+github
+version-control
+git-workflow
+branching
+pull-requests
+merge-conflicts
+software-development
+
+This makes the repository immediately understandable when someone visits it. GitHub specifically recommends clear repository information and useful READMEs for people reviewing your work.
+
+Then commit it
+
+From your repository folder:
+
+git add README.md
+git commit -m "Create professional GitHub workflow README"
+git push origin master
 ├── README.md
 └── hello.py
